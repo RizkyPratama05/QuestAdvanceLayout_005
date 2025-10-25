@@ -199,3 +199,5 @@ fun ActivitasKedua(modifier: Modifier) {
                     modifier = Modifier.padding(start = 10.dp)
                 )
 
+                Spacer(modifier = Modifier.width(width = 90.dp))
+
