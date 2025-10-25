@@ -52,3 +52,10 @@ fun ActivitasKedua(modifier: Modifier) {
         Row(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.Center){
+            Image(
+                painter = painterResource(id = R.drawable.linkedin),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(45.dp)
+                    .padding(4.dp)
+            )
