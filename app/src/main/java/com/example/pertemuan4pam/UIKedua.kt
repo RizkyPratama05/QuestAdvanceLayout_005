@@ -110,4 +110,6 @@ fun ActivitasKedua(modifier: Modifier) {
             .fillMaxWidth(fraction = 1f)
             .padding(top = 20.dp, start = 30.dp, end = 30.dp),
             colors = CardDefaults.cardColors(colorResource(id = R.color.biru_muda))
-        )
+        ){
+            Row(
+                verticalAlignment = Alignment.CenterVertically){
