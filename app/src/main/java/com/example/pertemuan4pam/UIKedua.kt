@@ -155,3 +155,12 @@ fun ActivitasKedua(modifier: Modifier) {
                         .padding(start = 20.dp)
                 )
 
+                Text(
+                    text = stringResource(id = R.string.Projek),
+                    fontSize = 25.sp,
+                    fontWeight = FontWeight.Bold,
+                    fontFamily = FontFamily.SansSerif,
+                    color = Color.LightGray,
+                    modifier = Modifier.padding(start = 10.dp)
+                )
+
