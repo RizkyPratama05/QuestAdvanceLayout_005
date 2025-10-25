@@ -48,3 +48,7 @@ fun ActivitasKedua(modifier: Modifier) {
             contentDescription = null,
             modifier = Modifier
                 .size(size = 200.dp)
+        )
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.Center){
