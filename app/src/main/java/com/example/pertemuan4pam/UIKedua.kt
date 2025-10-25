@@ -82,3 +82,5 @@ fun ActivitasKedua(modifier: Modifier) {
             )
         }
 
+        Spacer(modifier = Modifier.height(height = 5.dp))
+
