@@ -84,3 +84,10 @@ fun ActivitasKedua(modifier: Modifier) {
 
         Spacer(modifier = Modifier.height(height = 5.dp))
 
+        Text(
+            text = stringResource(id = R.string.namaku),
+            fontSize = 30.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.White
+        )
+
