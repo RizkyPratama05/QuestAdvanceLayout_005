@@ -96,5 +96,7 @@ fun ActivitasKedua(modifier: Modifier) {
             color = Color.Gray,
             fontFamily = FontFamily.Default
         )
+        Spacer(modifier = Modifier.height(height = 20.dp))
+
 
 
