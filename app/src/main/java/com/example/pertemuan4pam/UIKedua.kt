@@ -140,3 +140,8 @@ fun ActivitasKedua(modifier: Modifier) {
                 )
             }
         }
+        Card(modifier = Modifier
+            .fillMaxWidth(fraction = 1f)
+            .padding(top = 10.dp, start = 30.dp, end = 30.dp),
+            colors = CardDefaults.cardColors(colorResource(id = R.color.biru_muda))
+        ){
