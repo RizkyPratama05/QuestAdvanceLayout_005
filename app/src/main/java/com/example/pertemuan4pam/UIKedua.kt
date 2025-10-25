@@ -209,3 +209,29 @@ fun ActivitasKedua(modifier: Modifier) {
                 )
             }
         }
+        Card(modifier = Modifier
+            .fillMaxWidth(fraction = 1f)
+            .padding(top = 70.dp, start = 120.dp, end = 120.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.White)
+        ){
+            Row(
+                verticalAlignment = Alignment.CenterVertically){
+                val gambar = painterResource(id = R.drawable.keluarr)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(size = 60.dp)
+                )
+
+                Text(
+                    text = stringResource(id = R.string.Button),
+                    fontSize = 25.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Red,
+                    fontFamily = FontFamily.SansSerif,
+                    modifier = Modifier.padding(start = 10.dp)
+                )
+            }
+        }
+
