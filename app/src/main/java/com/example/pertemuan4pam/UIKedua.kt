@@ -201,3 +201,11 @@ fun ActivitasKedua(modifier: Modifier) {
 
                 Spacer(modifier = Modifier.width(width = 90.dp))
 
+                Image(
+                    painter = painterResource(id = R.drawable.search),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(size = 30.dp)
+                )
+            }
+        }
