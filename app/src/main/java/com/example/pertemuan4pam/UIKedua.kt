@@ -73,3 +73,12 @@ fun ActivitasKedua(modifier: Modifier) {
                     .size(size = 45.dp)
                     .padding(all = 4.dp)
             )
+            Image(
+                painter = painterResource(id = R.drawable.umy),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(size = 45.dp)
+                    .padding(all = 4.dp)
+            )
+        }
+
