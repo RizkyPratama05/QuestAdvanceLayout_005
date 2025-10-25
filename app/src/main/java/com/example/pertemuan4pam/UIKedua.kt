@@ -98,5 +98,11 @@ fun ActivitasKedua(modifier: Modifier) {
         )
         Spacer(modifier = Modifier.height(height = 20.dp))
 
+        Text(
+            text = stringResource(id = R.string.job),
+            fontSize = 20.sp,
+            color = Color.White,
+            fontFamily = FontFamily.Serif
+        )
 
 
