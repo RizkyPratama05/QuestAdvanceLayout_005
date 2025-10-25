@@ -90,4 +90,11 @@ fun ActivitasKedua(modifier: Modifier) {
             fontWeight = FontWeight.Bold,
             color = Color.White
         )
+        Text(
+            text = stringResource(id = R.string.ig),
+            fontSize = 20.sp,
+            color = Color.Gray,
+            fontFamily = FontFamily.Default
+        )
+
 
