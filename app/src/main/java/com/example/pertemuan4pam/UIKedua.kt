@@ -41,4 +41,10 @@ fun ActivitasKedua(modifier: Modifier) {
         .padding(top = 10.dp)
         .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
-    )
+    ){
+        val gambar = painterResource(id = R.drawable.fotoku3)
+        Image(
+            painter = gambar,
+            contentDescription = null,
+            modifier = Modifier
+                .size(size = 200.dp)
