@@ -181,3 +181,12 @@ fun ActivitasKedua(modifier: Modifier) {
         ){
             Row(
                 verticalAlignment = Alignment.CenterVertically
+            ){
+                Image(
+                    painter = painterResource(id = R.drawable.git),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(size = 80.dp)
+                        .padding(start = 20.dp)
+                )
+
