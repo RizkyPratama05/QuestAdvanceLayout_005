@@ -59,3 +59,10 @@ fun ActivitasKedua(modifier: Modifier) {
                     .size(45.dp)
                     .padding(4.dp)
             )
+            Image(
+                painter = painterResource(id = R.drawable.facebook),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(size = 50.dp)
+                    .padding(all = 4.dp)
+            )
